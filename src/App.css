@@ -1,0 +1,17 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(84, 22, 119);
+}
+
+h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+}

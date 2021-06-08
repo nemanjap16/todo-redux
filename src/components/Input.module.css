@@ -1,0 +1,38 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    height: 40px;
+    max-width: 50%;
+    width: 100%;
+    padding: 0 16px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: white;
+    border: none;
+    margin-bottom: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button.btn {
+     height: 40px;
+     border: none;
+     padding: 0 12px;
+     border-top-right-radius: 12px;
+     border-bottom-right-radius: 12px;
+     background-color: rgb(145, 102, 170);
+     color: whitesmoke;
+     text-transform: capitalize;
+     font-weight: 600;
+}
+
+button.btn:hover {
+    cursor: pointer;
+    opacity: .8;
+}

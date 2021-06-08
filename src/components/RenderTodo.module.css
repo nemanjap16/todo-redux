@@ -1,0 +1,52 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin-top: 15px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-color: whitesmoke;
+    max-width: 30%;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.item__complete {
+    color: blue; 
+    text-decoration: line-through; 
+}
+
+.item__incomplete {
+    color: tomato;
+}
+
+.checkbox {
+    margin-right: 20px;
+}
+
+.btn__delete {
+    margin-top: 15px;
+    background-color: tomato;
+    height: 30px;
+    color: whitesmoke;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 5px 15px;
+}
+
+.btn__delete:hover {
+    opacity: .8;
+    cursor: pointer;
+}
